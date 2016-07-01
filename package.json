@@ -4,14 +4,15 @@
   "description": "Simple website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Brad Traversy",
   "license": "ISC",
   "dependencies": {
-  	"body-parser": "*",
-  	"express": "*",
-  	"jade": "*",
-  	"nodemailer": "*"
+    "body-parser": "*",
+    "express": "^4.14.0",
+    "jade": "*",
+    "nodemailer": "*"
   }
 }
